@@ -21,7 +21,6 @@ function ViolatorManagement(props) {
                     'Authorization': `Bearer ${token}`
                 }
             }).then(res => {
-                console.log(res.data)
                 setData(res.data)
             }).catch(err => console.log(err))
         }
@@ -32,8 +31,7 @@ function ViolatorManagement(props) {
 
     const convertList = (list) => {
         if (list.length > 0) {
-            const newList = list.reverse();
-            const result = newList.map((item, index) => {
+            return (list.map((item, index) => {
                 return (
                     <div className="card" key={index}>
                         <div className="card-thumb">
@@ -44,9 +42,7 @@ function ViolatorManagement(props) {
                         </h3>
                     </div>
                 )
-            })
-            console.log(result)
-            return result;
+            }))
         }
 
     }
@@ -85,7 +81,7 @@ function ViolatorManagement(props) {
                 </div>
                 <div className="hotSearch mt-4 relative">
                     <div className="hotSearch__ flex delay-100 px-6 gap-8" style={{ marginLeft: `${change}px` }}>
-                        {convertList(data)}
+                        {convertList(data.reverse())}
                     </div>
                 </div>
 

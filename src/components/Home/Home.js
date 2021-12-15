@@ -32,7 +32,7 @@ function Home(props) {
                                     src={Hieu} alt="" />
                                 <div>
                                     <p className="font-medium">Lê Thị Lưu Hiếu</p>
-                                    <p className="text-sm text-gray-400">luuhieu8720@gmail.com</p>
+                                    <p className="text-sm text-gray-400">lethiluuhieu@gmail.com</p>
                                 </div>
                             </div>
                             <div className="flex items-center mt-6">
@@ -91,11 +91,12 @@ function Home(props) {
                             Face Mask Detection
                         </h1>
                         <h2 className="header-content__title">
-                            Introduction: Technology to recognize people wearing masks
+                            Introduction: Technology to recognize people not wearing masks
                         </h2>
                         <p className="header-content__text">
-                            The problem is reverse engineering of face detection where the face is detected
-                            using different machine learning algorithms for the purpose of security, authentication and surveillance.
+                            Due to the effect of COVID19 pandemic, wearing a mask in public is significantly important.
+                            We provide solutions for malls, supermarkets, theatres,... to recognize whom not wearing masks.
+                            We hope that this website can make some changes in our fight against the pandemic
                         </p>
                         <p className="header-content-button header-content-button__blue">
                             <span className="button_text">Try it yourself</span>
@@ -117,18 +118,18 @@ function Home(props) {
                         <div>
                             <h2><ion-icon name="alarm"></ion-icon>
                                 4sec</h2>
-                            <p>Average check time</p>
+                            <p>Average recognition time</p>
                         </div>
                         <div>
                             <h2> <ion-icon name="terminal"></ion-icon>
-                                30min</h2>
-                            <p>Quick integration with Sumsub SDK</p>
+                                5min</h2>
+                            <p>To get used to our system</p>
                         </div>
                         <div>
                             <h2><ion-icon name="aperture"></ion-icon>
-                                99%
+                                96%
                             </h2>
-                            <p>Completion rate</p>
+                            <p>Accuracy rate</p>
                         </div>
                     </div>
                 </div>
@@ -142,7 +143,7 @@ function Home(props) {
                                 <ion-icon name="alarm"></ion-icon>
                             </div>
                             <div className="box-content-style">
-                                <h4>Fast, people-friendly onboarding</h4>
+                                <h4>Fast, user-friendly system </h4>
                                 <p>Just one simple step, everyone can use the product</p>
                             </div>
                         </div>
@@ -151,8 +152,8 @@ function Home(props) {
                                 <ion-icon name="person-circle"></ion-icon>
                             </div>
                             <div className="box-content-style">
-                                <h4>Easy to use interface</h4>
-                                <p>Using react helps users get a comfortable and intimate experience</p>
+                                <h4>Easily expandable system</h4>
+                                <p>We can help you to customize for your own enterprise</p>
                             </div>
                         </div>
                         <div className="box-style">
@@ -160,7 +161,7 @@ function Home(props) {
                                 <ion-icon name="diamond"></ion-icon>
                             </div>
                             <div className="box-content-style">
-                                <h4>User authentication</h4>
+                                <h4>User authentication system</h4>
                                 <p>Help administrators can easily manage and use the application</p>
                             </div>
                         </div>

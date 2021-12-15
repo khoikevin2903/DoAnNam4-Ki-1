@@ -21,8 +21,8 @@ function UploadImage(props) {
             }
         })
             .then((res) => {
-                if(res.data.result.length ===9){
-                    swal("thank you!", "Click ok to go back!", "success");
+                if(res.data.result.length === 9){
+                    swal("You are wearing a mask. Stay safe!!", "Click ok to go back!", "success");
                 } else {
                     swal("Oops! Please wear a mask!!!!", "Click ok to go back!", "warning");
                 }
