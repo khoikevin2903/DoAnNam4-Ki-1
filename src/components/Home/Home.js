@@ -176,7 +176,7 @@ function Home(props) {
                 <div class="section-title text-center">
                     <h2 className="how-it-works__title how-it-works__title--arrow">How it works</h2>
                     <p>
-                        Using FDM for shopping centers is no longer something too complicated.
+                        Using FMD for shopping centers is no longer something too complicated.
                         <br />
                         With just one click, you can detect who is not wearing a mask.
                         <br />

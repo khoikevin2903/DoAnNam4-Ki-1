@@ -91,7 +91,7 @@ function UserManagement(props) {
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap">
                             <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-                                {item.isBlocked ? "Active" : "Deactivate"}
+                                {!item.isBlocked ? "Active" : "Deactivate"}
                             </span>
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap text-right text-sm ">

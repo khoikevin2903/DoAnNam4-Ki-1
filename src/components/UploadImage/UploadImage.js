@@ -12,6 +12,7 @@ function UploadImage(props) {
     const token = useSelector(state => state.Auth.token);
 
     const printSubmittedValue = value => {
+        console.log(value)
         let data = value.split(',')[1];
         axios.post(`https://pbl6-backend.herokuapp.com/api/ml/predict`, {
             base64String: data
